@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA759D81C59B3DB00E7DC97 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA759D71C59B3DB00E7DC97 /* Data.swift */; };
 		D127505E1C506C56002A9B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127505D1C506C56002A9B2E /* AppDelegate.swift */; };
 		D12750631C506C56002A9B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12750611C506C56002A9B2E /* Main.storyboard */; };
 		D12750651C506C56002A9B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12750641C506C56002A9B2E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEA759D71C59B3DB00E7DC97 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D127505A1C506C56002A9B2E /* iOS4-HW5-Delegation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS4-HW5-Delegation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D127505D1C506C56002A9B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D12750621C506C56002A9B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				D12750711C506CCF002A9B2E /* ItemsTableViewController.swift */,
 				D127506F1C506CC0002A9B2E /* AddItemViewController.swift */,
+				BEA759D71C59B3DB00E7DC97 /* Data.swift */,
 				D12750611C506C56002A9B2E /* Main.storyboard */,
 				D12750641C506C56002A9B2E /* Assets.xcassets */,
 				D12750661C506C56002A9B2E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				D127505E1C506C56002A9B2E /* AppDelegate.swift in Sources */,
 				D12750701C506CC0002A9B2E /* AddItemViewController.swift in Sources */,
 				D12750721C506CCF002A9B2E /* ItemsTableViewController.swift in Sources */,
+				BEA759D81C59B3DB00E7DC97 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				D127506E1C506C56002A9B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

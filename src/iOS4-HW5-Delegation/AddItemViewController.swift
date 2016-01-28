@@ -8,8 +8,14 @@
 
 import UIKit
 
+protocol saveNewData {
+    func saveData(listData:Data)
+}
+
 class AddItemViewController: UIViewController {
 
+    var delegate:saveNewData?
+    
     @IBOutlet weak var itemTextField: UITextField!
     
     override func viewDidLoad() {
@@ -17,5 +23,11 @@ class AddItemViewController: UIViewController {
     }
 
     @IBAction func saveButtonPressed(sender: AnyObject) {
+        let listItem = Data()
+        listItem.info = itemTextField.text!
+        delegate?.saveData(listItem)
+        
+        navigationController?.popViewControllerAnimated(true)
     }
 }
+
